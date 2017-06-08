@@ -94,11 +94,14 @@
             <objects>
                 <navigationController id="DGs-4A-U5w" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="My Trips" id="Oxu-MQ-tCH"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IFr-fc-d0s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="nmg-6h-C8k">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="Gvk-Dk-xS4" kind="relationship" relationship="rootViewController" id="mnF-Nj-ik8"/>
                     </connections>
@@ -126,7 +129,7 @@
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="AboutXcode.png" translatesAutoresizingMaskIntoConstraints="NO" id="zyV-v3-Dbo">
                                             <rect key="frame" x="8" y="8" width="359" height="326.5"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFo-1E-KZU">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFo-1E-KZU">
                                             <rect key="frame" x="18" y="344.5" width="73.5" height="17"/>
                                             <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                             <color key="textColor" red="0.42616580310880825" green="0.42616580310880825" blue="0.42616580310880825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
