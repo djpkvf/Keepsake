@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		8B363E401EE9F0B300455AC0 /* TripsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B363E3F1EE9F0B300455AC0 /* TripsTableTableViewController.swift */; };
 		8B5B67021EE9F3E70052011F /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B67011EE9F3E70052011F /* TripTableViewCell.swift */; };
+		8B5B67041EE9F7AA0052011F /* MemoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B67031EE9F7AA0052011F /* MemoriesTableViewController.swift */; };
+		8B5B67061EE9F7C20052011F /* MemoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B67051EE9F7C20052011F /* MemoryTableViewCell.swift */; };
+		8B5B67081EE9FADD0052011F /* MemoryPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B67071EE9FADD0052011F /* MemoryPageControl.swift */; };
+		8B5B670A1EE9FB320052011F /* MemoriesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B67091EE9FB320052011F /* MemoriesPageViewController.swift */; };
+		8B5B670F1EE9FD780052011F /* AboutXcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B670E1EE9FD780052011F /* AboutXcode.png */; };
+		8B5B67111EEA00070052011F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B67101EEA00070052011F /* TabBarViewController.swift */; };
 		8BA8B8BF1ED50BC6001AA057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8B8BE1ED50BC6001AA057 /* AppDelegate.swift */; };
 		8BA8B8C41ED50BC6001AA057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8B8C21ED50BC6001AA057 /* Main.storyboard */; };
 		8BA8B8C71ED50BC6001AA057 /* Keepsake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8B8C51ED50BC6001AA057 /* Keepsake.xcdatamodeld */; };
@@ -39,6 +45,12 @@
 /* Begin PBXFileReference section */
 		8B363E3F1EE9F0B300455AC0 /* TripsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsTableTableViewController.swift; sourceTree = "<group>"; };
 		8B5B67011EE9F3E70052011F /* TripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		8B5B67031EE9F7AA0052011F /* MemoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoriesTableViewController.swift; sourceTree = "<group>"; };
+		8B5B67051EE9F7C20052011F /* MemoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryTableViewCell.swift; sourceTree = "<group>"; };
+		8B5B67071EE9FADD0052011F /* MemoryPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryPageControl.swift; sourceTree = "<group>"; };
+		8B5B67091EE9FB320052011F /* MemoriesPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoriesPageViewController.swift; sourceTree = "<group>"; };
+		8B5B670E1EE9FD780052011F /* AboutXcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutXcode.png; sourceTree = "<group>"; };
+		8B5B67101EEA00070052011F /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		8BA8B8BB1ED50BC6001AA057 /* Keepsake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keepsake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA8B8BE1ED50BC6001AA057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA8B8C31ED50BC6001AA057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,9 +93,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B5B670B1EE9FB430052011F /* My Trips */ = {
+			isa = PBXGroup;
+			children = (
+				8B363E3F1EE9F0B300455AC0 /* TripsTableTableViewController.swift */,
+				8B5B67011EE9F3E70052011F /* TripTableViewCell.swift */,
+				8B5B67031EE9F7AA0052011F /* MemoriesTableViewController.swift */,
+				8B5B67051EE9F7C20052011F /* MemoryTableViewCell.swift */,
+				8B5B67071EE9FADD0052011F /* MemoryPageControl.swift */,
+				8B5B67091EE9FB320052011F /* MemoriesPageViewController.swift */,
+			);
+			name = "My Trips";
+			sourceTree = "<group>";
+		};
+		8B5B670C1EE9FB5E0052011F /* Add Trip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Add Trip";
+			sourceTree = "<group>";
+		};
+		8B5B670D1EE9FB640052011F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		8BA8B8B21ED50BC5001AA057 = {
 			isa = PBXGroup;
 			children = (
+				8B5B670E1EE9FD780052011F /* AboutXcode.png */,
 				8BA8B8BD1ED50BC6001AA057 /* Keepsake */,
 				8BA8B8D51ED50BC6001AA057 /* KeepsakeTests */,
 				8BA8B8E01ED50BC6001AA057 /* KeepsakeUITests */,
@@ -105,14 +145,16 @@
 		8BA8B8BD1ED50BC6001AA057 /* Keepsake */ = {
 			isa = PBXGroup;
 			children = (
+				8B5B670D1EE9FB640052011F /* Profile */,
+				8B5B670C1EE9FB5E0052011F /* Add Trip */,
+				8B5B670B1EE9FB430052011F /* My Trips */,
 				8BA8B8BE1ED50BC6001AA057 /* AppDelegate.swift */,
+				8B5B67101EEA00070052011F /* TabBarViewController.swift */,
 				8BA8B8C21ED50BC6001AA057 /* Main.storyboard */,
 				8BA8B8C81ED50BC6001AA057 /* Assets.xcassets */,
 				8BA8B8CA1ED50BC6001AA057 /* LaunchScreen.storyboard */,
 				8BA8B8CD1ED50BC6001AA057 /* Info.plist */,
 				8BA8B8C51ED50BC6001AA057 /* Keepsake.xcdatamodeld */,
-				8B363E3F1EE9F0B300455AC0 /* TripsTableTableViewController.swift */,
-				8B5B67011EE9F3E70052011F /* TripTableViewCell.swift */,
 			);
 			path = Keepsake;
 			sourceTree = "<group>";
@@ -253,6 +295,7 @@
 				8BA8B8CC1ED50BC6001AA057 /* LaunchScreen.storyboard in Resources */,
 				8BA8B8C91ED50BC6001AA057 /* Assets.xcassets in Resources */,
 				8BA8B8C41ED50BC6001AA057 /* Main.storyboard in Resources */,
+				8B5B670F1EE9FD780052011F /* AboutXcode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5B670A1EE9FB320052011F /* MemoriesPageViewController.swift in Sources */,
 				8B5B67021EE9F3E70052011F /* TripTableViewCell.swift in Sources */,
 				8BA8B8C71ED50BC6001AA057 /* Keepsake.xcdatamodeld in Sources */,
+				8B5B67041EE9F7AA0052011F /* MemoriesTableViewController.swift in Sources */,
+				8B5B67111EEA00070052011F /* TabBarViewController.swift in Sources */,
 				8BA8B8BF1ED50BC6001AA057 /* AppDelegate.swift in Sources */,
+				8B5B67061EE9F7C20052011F /* MemoryTableViewCell.swift in Sources */,
 				8B363E401EE9F0B300455AC0 /* TripsTableTableViewController.swift in Sources */,
+				8B5B67081EE9FADD0052011F /* MemoryPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

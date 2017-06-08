@@ -1,5 +1,5 @@
 //
-//  TripsTableTableViewController.swift
+//  MemoriesTableViewController.swift
 //  Keepsake
 //
 //  Created by Dominic Pilla on 6/8/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TripsTableTableViewController: UITableViewController {
+class MemoriesTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class TripsTableTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return 0
     }
 
     /*
